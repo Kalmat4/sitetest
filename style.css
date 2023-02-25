@@ -1,0 +1,49 @@
+html,body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+.wrapper{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	padding: 20px;
+	display: flex;
+	background-color: gray;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+.header span{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.content{
+	width: 70%;
+	margin: 10px auto;
+	background-color: darkgray;
+	padding: 20px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+}
+
+
+.footer{
+	padding: 20px;
+	background-color: gray;
+
+}
+
+.image{
+	width: 450px;
+	height: 250px;
+	background-color: green;
+	border-radius: 25px;
+	float: left;
+	margin-right: 20px;
+}
